@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Assignment4</title>  
+</head>
+<body>    
+  Enter the value: <input type="text" id="number"><br><br>
+  <button onclick="digitlength()">submit</button>    
+  <script type="text/javascript">
+      function digitlength() {
+      var num= parseInt(document.getElementById("number").value);
+      var count=0;
+      var n=parseInt(num);
+      while(n >=1) {
+      n = n/10;
+      ++count;
+      }
+        alert(count);
+    }
+  </script>
+</body>
+</html>

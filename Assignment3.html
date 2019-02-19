@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>problem3</title>
+</head>
+<body>
+    <div class="input">		
+	  number <input type="text" id="num1"><br>
+	  <button onClick="table()">submit</button>		
+    </div>
+	<script type="text/javascript">
+		function table(){	
+			var i= 0;
+			var num =parseInt(document.getElementById("num1").value);			
+			for(i = 1;i <= 10 ;i++) {
+				var tabledata = num * i;
+				 document.write(tabledata + "<br>");
+			}
+	    }		
+	</script>	
+</body>
+</html>
